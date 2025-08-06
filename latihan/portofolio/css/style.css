@@ -29,7 +29,7 @@ body {
 }
 
 .about h2 {
-    margin-bottom: 20px;
+    margin: 0 0 20px;
 }
 
 .about-content {
@@ -51,5 +51,59 @@ body {
 
 .about p {
     max-width: 500px;
-    text-align: left;
+    text-align: center;
+}
+
+.skills {
+    background-color: #f0f0f0;
+    padding: 40px 20px;
+}
+
+.skills h2 {
+    margin: 0 0 30px;
+}
+
+.skill-list {
+    max-width: 600px;
+    margin: auto;
+    text-align: center;
+}
+
+.skill {
+    margin: 0 0 20px;
+}
+
+.skill-bar {
+    background-color: #ddd;
+    border-radius: 20px;
+    height: 20px;
+    overflow: hidden;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+.skill-fill {
+    height: 100%;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+.skill-fill.html {
+    width: 70%;
+    background-color: #e44d26;
+}
+
+.skill-fill.css {
+    width: 40%;
+    background-color: #2965f1;
+}
+
+.skill-fill.js {
+    width: 20%;
+    background-color: #f0db4f;
 }
