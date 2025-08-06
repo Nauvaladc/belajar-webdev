@@ -51,7 +51,7 @@ body {
 
 .about p {
     max-width: 500px;
-    text-align: center;
+    text-align: left;
 }
 
 .skills {
@@ -66,7 +66,7 @@ body {
 .skill-list {
     max-width: 600px;
     margin: auto;
-    text-align: center;
+    text-align: left;
 }
 
 .skill {
@@ -87,10 +87,15 @@ body {
 .skill-fill {
     height: 100%;
     border-radius: 20px;
+    transition: width 1s ease-in-out;
     -webkit-border-radius: 20px;
     -moz-border-radius: 20px;
     -ms-border-radius: 20px;
     -o-border-radius: 20px;
+    -webkit-transition: width 1s ease-in-out;
+    -moz-transition: width 1s ease-in-out;
+    -ms-transition: width 1s ease-in-out;
+    -o-transition: width 1s ease-in-out;
 }
 
 .skill-fill.html {
@@ -106,4 +111,5 @@ body {
 .skill-fill.js {
     width: 20%;
     background-color: #f0db4f;
+    color: black;
 }
